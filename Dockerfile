@@ -7,7 +7,7 @@ MAINTAINER Joao Caibar <jc.caibar@gmail.com>
 
 # Install Fortunes (fortunes, fortunes-br).
 RUN apt-get -y update \
-	&& apt-get install -y fortunes \
+	&& apt-get install -y fortunes-br \
 	&& apt-get autoremove -y \
 	&& apt-get clean -y
 
